@@ -2,7 +2,7 @@ def fact(n):
     x = 1
     for el in range(n):
         z = (el + 1) * x
-        x = el + 1
+        x = z
         yield z
 
 
